@@ -6,6 +6,7 @@ public class GameOfLifeLogic {
     private int numberOfCells;
 
     public GameOfLifeLogic() {
+        boardLogic = new BoardLogic();
         resetBoard();
         numberOfCells = 15; // Because the grid will be 15*15
     }
