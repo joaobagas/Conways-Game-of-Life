@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da42f068-dafd-4e80-acf5-b53a409de10b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/BoardLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/GameOfLifeModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/BoardLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BoardLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oldcode/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oldcode/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oldcode/RunGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589212087469</updated>
-      <workItem from="1589212091561" duration="5322000" />
+      <workItem from="1589212091561" duration="5777000" />
+      <workItem from="1589270116172" duration="1430000" />
     </task>
     <servers />
   </component>
@@ -84,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

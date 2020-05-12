@@ -1,6 +1,6 @@
 package model;
 
-public class GameOfLifeLogic {
+public class GameOfLifeLogic implements GameOfLifeModel {
     private BoardLogic boardLogic;
     private boolean[][] board;
     private int numberOfCells;
@@ -11,7 +11,15 @@ public class GameOfLifeLogic {
         numberOfCells = 15; // Because the grid will be 15*15
     }
 
+    @Override
     public void resetBoard() { board = boardLogic.resetBoard(); }
 
-    public void newGeneration() { board = boardLogic.newGeneration(numberOfCells, board); }
+    @Override
+    public void startSimulationButtonPressed() { try {boardLogic.startSimulation(numberOfCells, board);} catch (Exception e) {}}
+
+    @Override
+    public void resetButtonPressed() { resetBoard(); }
+
+    @Override
+    public void exitButtonPressed() { System.exit(0);}
 }
