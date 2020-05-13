@@ -28,6 +28,8 @@ public class MainWindowController {
                 boardGridPane.add(t, i, j);
             }
         }
+
+        viewModel.addTiles(tiles);
     }
 
     public Region getRoot() { return root; }

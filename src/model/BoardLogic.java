@@ -1,5 +1,7 @@
 package model;
 
+import view.Tile;
+
 public class BoardLogic {
     public boolean[][] resetBoard() {
         boolean[][] board;
@@ -21,13 +23,15 @@ public class BoardLogic {
         return board;
     }
 
-    public void startSimulation(int numberOfCells, boolean[][] board) throws InterruptedException {
+    public void startSimulation(int numberOfCells, boolean[][] board, Tile[][] tiles) throws InterruptedException {
         int count = 1;
         while (true) {
-            newGeneration(numberOfCells, board);
+            updateBoolBoard(tiles, board);
+            board = newGeneration(numberOfCells, board);
+            updateViewBoard(tiles, board);
             System.out.println("Generation " + count);
             count ++;
-            Thread.sleep(2000);
+            Thread.sleep(500);
         }
     }
 
@@ -58,5 +62,21 @@ public class BoardLogic {
         if (y < numberOfCells-1 && x > 0)               { if (board[y+1][x-1]) { count++; } }
         if (y > 0 && x < numberOfCells-1)               { if (board[y-1][x+1]) { count++; } }
         return count;
+    }
+
+    public void updateViewBoard(Tile[][] tiles, boolean[][] board) {
+        for (int i = 0; i < 15; i++) {
+            for (int j = 0; j < 15; j++) {
+                tiles[i][j].setAlive(board[j][i]); //If there's an error try to change the board j and i
+            }
+        }
+    }
+
+    public void updateBoolBoard(Tile[][] tiles, boolean[][] board) {
+        for (int i = 0; i < 15; i++) {
+            for (int j = 0; j < 15; j++) {
+                board[j][i] = tiles[i][j].isAlive(); //If there's an error try to change the board j and i
+            }
+        }
     }
 }

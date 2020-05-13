@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da42f068-dafd-4e80-acf5-b53a409de10b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/view/Tile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/BoardLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/BoardLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/Tile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/BoardLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BoardLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameOfLifeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameOfLifeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,7 +89,9 @@
       <workItem from="1589282803316" duration="201000" />
       <workItem from="1589378419470" duration="20000" />
       <workItem from="1589378949358" duration="11000" />
-      <workItem from="1589379178129" duration="5742000" />
+      <workItem from="1589379178129" duration="7012000" />
+      <workItem from="1589386540453" duration="221000" />
+      <workItem from="1589387117418" duration="1438000" />
     </task>
     <servers />
   </component>
