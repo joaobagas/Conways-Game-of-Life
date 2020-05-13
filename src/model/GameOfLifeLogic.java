@@ -7,6 +7,7 @@ public class GameOfLifeLogic implements GameOfLifeModel {
     private boolean[][] board;
     private Tile[][] tiles;
     private int numberOfCells;
+    private Thread thread;
 
     public GameOfLifeLogic() {
         boardLogic = new BoardLogic();
@@ -19,10 +20,16 @@ public class GameOfLifeLogic implements GameOfLifeModel {
     public void resetBoard() { board = boardLogic.resetBoard();}
 
     @Override
-    public void startSimulationButtonPressed() { new Thread(this).start(); }
+    public void startSimulationButtonPressed() {
+        thread = new Thread(this);
+        thread.start();
+    }
 
     @Override
     public void run() { try {boardLogic.startSimulation(numberOfCells, board, tiles);} catch (Exception e) {} }
+
+    @Override
+    public void stopSimulationButtonPressed() { thread.interrupt(); }
 
     @Override
     public void resetButtonPressed() { resetBoard(); boardLogic.updateViewBoard(tiles, board);}

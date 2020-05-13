@@ -15,6 +15,8 @@ public class MainWindowViewModel {
 
     public void startSimulationButtonPressed() { model.startSimulationButtonPressed(); }
 
+    public void stopSimulationButtonPressed() { model.stopSimulationButtonPressed(); }
+
     public void resetButtonPressed() { model.resetButtonPressed(); }
 
     public void exitButtonPressed() { model.exitButtonPressed(); }

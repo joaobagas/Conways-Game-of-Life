@@ -36,6 +36,8 @@ public class MainWindowController {
 
     @FXML public void startSimulationButtonPressed() { viewModel.startSimulationButtonPressed(); }
 
+    @FXML public void stopSimulationButtonPressed() { viewModel.stopSimulationButtonPressed(); }
+
     @FXML public void resetButtonPressed() { viewModel.resetButtonPressed(); }
 
     @FXML public void exitButtonPressed() { viewModel.exitButtonPressed(); }

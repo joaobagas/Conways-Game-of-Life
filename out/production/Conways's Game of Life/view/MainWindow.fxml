@@ -9,6 +9,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainWindowController">
    <children>
       <Button layoutX="14.0" layoutY="413.0" mnemonicParsing="false" onAction="#startSimulationButtonPressed" text="Start Simulation" />
+      <Button layoutX="121.0" layoutY="413.0" mnemonicParsing="false" onAction="#stopSimulationButtonPressed" prefHeight="25.0" prefWidth="101.0" text="Stop Simulation" />
       <Button layoutX="331.0" layoutY="413.0" mnemonicParsing="false" onAction="#exitButtonPressed" prefHeight="25.0" prefWidth="55.0" text="Exit" />
       <Button layoutX="267.0" layoutY="413.0" mnemonicParsing="false" onAction="#resetButtonPressed" prefHeight="25.0" prefWidth="55.0" text="Reset" />
       <GridPane fx:id="boardGridPane" layoutX="15.0" layoutY="14.0" prefHeight="371.0" prefWidth="371.0">

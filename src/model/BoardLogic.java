@@ -24,13 +24,10 @@ public class BoardLogic {
     }
 
     public void startSimulation(int numberOfCells, boolean[][] board, Tile[][] tiles) throws InterruptedException {
-        int count = 1;
         while (true) {
             updateBoolBoard(tiles, board);
             board = newGeneration(numberOfCells, board);
             updateViewBoard(tiles, board);
-            System.out.println("Generation " + count);
-            count ++;
             Thread.sleep(500);
         }
     }
@@ -72,7 +69,7 @@ public class BoardLogic {
         }
     }
 
-    public void updateBoolBoard(Tile[][] tiles, boolean[][] board) {
+    private void updateBoolBoard(Tile[][] tiles, boolean[][] board) {
         for (int i = 0; i < 15; i++) {
             for (int j = 0; j < 15; j++) {
                 board[j][i] = tiles[i][j].isAlive(); //If there's an error try to change the board j and i
