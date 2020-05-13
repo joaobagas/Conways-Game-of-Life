@@ -21,6 +21,16 @@ public class BoardLogic {
         return board;
     }
 
+    public void startSimulation(int numberOfCells, boolean[][] board) throws InterruptedException {
+        int count = 1;
+        while (true) {
+            newGeneration(numberOfCells, board);
+            System.out.println("Generation " + count);
+            count ++;
+            Thread.sleep(2000);
+        }
+    }
+
     private boolean[][] newGeneration(int numberOfCells, boolean[][] board) {
         boolean[][] tempBoard = resetBoard();
         for (int i = 0; i < numberOfCells; i++) { for (int j = 0; j < numberOfCells; j++) { tempBoard[j][i] = isAlive(i, j, numberOfCells, board); } }
@@ -31,9 +41,9 @@ public class BoardLogic {
         if (board[y][x]) {
             if      (checkNumberOfNeighbors(x, y, numberOfCells, board) < 2) { return false; }
             else if (checkNumberOfNeighbors(x, y, numberOfCells, board) > 3) { return false; }
-            else                                      { return true;  }
+            else                                                             { return true;  }
         }
-        else { if (checkNumberOfNeighbors(x, y, numberOfCells, board) == 3)  {  return true; } }
+        else { if (checkNumberOfNeighbors(x, y, numberOfCells, board) == 3)  { return true;  }}
         return false;
     }
 
@@ -48,12 +58,5 @@ public class BoardLogic {
         if (y < numberOfCells-1 && x > 0)               { if (board[y+1][x-1]) { count++; } }
         if (y > 0 && x < numberOfCells-1)               { if (board[y-1][x+1]) { count++; } }
         return count;
-    }
-
-    public void startSimulation(int numberOfCells, boolean[][] board) throws InterruptedException {
-        while (true) {
-            newGeneration(numberOfCells, board);
-            Thread.sleep(5000);
-        }
     }
 }

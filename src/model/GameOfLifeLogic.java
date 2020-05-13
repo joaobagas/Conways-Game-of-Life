@@ -11,11 +11,13 @@ public class GameOfLifeLogic implements GameOfLifeModel {
         numberOfCells = 15; // Because the grid will be 15*15
     }
 
-    @Override
     public void resetBoard() { board = boardLogic.resetBoard(); }
 
     @Override
-    public void startSimulationButtonPressed() { try {boardLogic.startSimulation(numberOfCells, board);} catch (Exception e) {}}
+    public void startSimulationButtonPressed() { new Thread(this).start(); }
+
+    @Override
+    public void run() { try {boardLogic.startSimulation(numberOfCells, board);} catch (Exception e) {} }
 
     @Override
     public void resetButtonPressed() { resetBoard(); }

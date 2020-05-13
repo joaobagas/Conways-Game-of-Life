@@ -1,7 +1,6 @@
 package model;
 
-public interface GameOfLifeModel {
-    void resetBoard();
+public interface GameOfLifeModel extends Runnable {
     void startSimulationButtonPressed();
     void resetButtonPressed();
     void exitButtonPressed();
