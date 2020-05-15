@@ -7,26 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da42f068-dafd-4e80-acf5-b53a409de10b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/BoardLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/BoardLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/Tile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/viewmodel/MainWindowViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/viewmodel/MainWindowViewModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/BoardLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BoardLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/GameOfLifeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameOfLifeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,7 +109,8 @@
       <workItem from="1589387117418" duration="3172000" />
       <workItem from="1589398266687" duration="328000" />
       <workItem from="1589441629054" duration="19000" />
-      <workItem from="1589534447547" duration="905000" />
+      <workItem from="1589534447547" duration="1115000" />
+      <workItem from="1589567082269" duration="1306000" />
     </task>
     <servers />
   </component>

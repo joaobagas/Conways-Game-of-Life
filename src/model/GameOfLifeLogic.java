@@ -17,9 +17,7 @@ public class GameOfLifeLogic implements GameOfLifeModel {
         numberOfCells = 15; // Because the grid will be 15*15
     }
 
-    public void addTiles(Tile[][] tiles) { this.tiles = tiles; }
-
-    public void resetBoard() { board = boardLogic.resetBoard();}
+    private void resetBoard() { board = boardLogic.resetBoard();}
 
     @Override
     public void startSimulationButtonPressed() {
@@ -34,7 +32,16 @@ public class GameOfLifeLogic implements GameOfLifeModel {
     public void run() { try {boardLogic.startSimulation(numberOfCells, board, tiles);} catch (Exception e) {} }
 
     @Override
-    public void stopSimulationButtonPressed() {
+    public void stopSimulationButtonPressed() { stopSimulation(); }
+
+    @Override
+    public void resetButtonPressed() {
+        resetBoard();
+        boardLogic.updateViewBoard(tiles, board);
+        stopSimulation();
+    }
+
+    private void stopSimulation() {
         if ( numberOfTreads == 1 ) {
             thread.interrupt();
             numberOfTreads -= 1;
@@ -42,8 +49,8 @@ public class GameOfLifeLogic implements GameOfLifeModel {
     }
 
     @Override
-    public void resetButtonPressed() { resetBoard(); boardLogic.updateViewBoard(tiles, board);}
+    public void exitButtonPressed() { System.exit(0);}
 
     @Override
-    public void exitButtonPressed() { System.exit(0);}
+    public void addTiles(Tile[][] tiles) { this.tiles = tiles; }
 }

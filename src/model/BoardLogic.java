@@ -5,21 +5,12 @@ import view.Tile;
 public class BoardLogic {
     public boolean[][] resetBoard() {
         boolean[][] board;
-        board = new boolean[][]{{false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
-                                {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false}};
+        board = new boolean[15][15];
+        for (int i = 0; i < 15; i++) {
+            for (int j = 0; j < 15; j++) {
+                board[j][i] = false;
+            }
+        }
         return board;
     }
 
