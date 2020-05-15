@@ -7,12 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da42f068-dafd-4e80-acf5-b53a409de10b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/META-INF/Conways's Game of Life.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/BoardLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/BoardLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/model/GameOfLifeModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/MainWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/view/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Conways's Game of Life/viewmodel/MainWindowViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Conways's Game of Life/viewmodel/MainWindowViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/BoardLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BoardLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameOfLifeLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameOfLifeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameOfLifeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewmodel/MainWindowViewModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +43,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="conways's_game_of_life" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -92,7 +103,10 @@
       <workItem from="1589378949358" duration="11000" />
       <workItem from="1589379178129" duration="7012000" />
       <workItem from="1589386540453" duration="221000" />
-      <workItem from="1589387117418" duration="2515000" />
+      <workItem from="1589387117418" duration="3172000" />
+      <workItem from="1589398266687" duration="328000" />
+      <workItem from="1589441629054" duration="19000" />
+      <workItem from="1589534447547" duration="905000" />
     </task>
     <servers />
   </component>
